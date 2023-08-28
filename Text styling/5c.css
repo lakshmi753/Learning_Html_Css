@@ -1,0 +1,34 @@
+p{
+    font-family: Verdana;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.course{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.pro{
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+    margin-bottom: 22px;
+}
+.description{
+    font-size: 20px;
+    width: 380px;
+    text-align: left;
+    margin-bottom: 22px;
+    font-weight: 540;
+}
+.start{
+    background-color: rgb(3, 137, 3);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
