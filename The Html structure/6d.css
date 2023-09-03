@@ -1,0 +1,17 @@
+p{
+    text-align: center;
+    font-family: Montserrat;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.order{
+    font-size: 25px;
+    color: rgb(53, 52, 52);
+    
+}
+.link{
+    cursor: pointer;
+}
