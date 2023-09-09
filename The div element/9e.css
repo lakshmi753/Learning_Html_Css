@@ -1,0 +1,47 @@
+.box{
+    border: none;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 700px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.25);
+
+}
+.pic{
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 40px;
+    vertical-align: middle;
+    margin-right: 8px;
+    object-fit: cover;
+}
+.message{
+    font-size: 25px;
+    color: rgb(150, 148, 148);
+    vertical-align: middle;
+    margin-right: 160px;
+    padding-left: 4px;
+    border: none;
+}
+.tweet{
+    background-color: rgb(30, 139, 227);
+    color: white;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 0;
+}
