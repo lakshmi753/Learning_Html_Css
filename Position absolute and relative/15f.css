@@ -1,0 +1,43 @@
+.container{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 400px;
+   
+}
+.pic{
+    width: 300px;
+    height: 400px;
+}
+.discount{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 140px;
+    background-color: rgba(248, 247, 247, 0.604);
+}
+.btn{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
