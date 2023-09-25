@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    border-bottom-style:solid ;
+    border-bottom-color:rgb(199, 196, 196) ;
+    border-bottom-width:1px ;
+    
+}
+.picbox{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+    height: 130px;
+}
+.pic{
+    width: 90px;
+    height: 90px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aqua;
+    border-radius: 45px;
+    object-fit: cover;
+}
+.name{
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn{
+    width: 260px;
+   
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.btn--1{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(72, 126, 227);
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.btn--2{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(233, 231, 231);
+    border-radius: 6px;
+    cursor: pointer;
+}
