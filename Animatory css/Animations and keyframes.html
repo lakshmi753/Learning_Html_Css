@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations and Keyframes</title>
+    <style>
+      .container {
+        background-color: rgb(152, 251, 54);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box1 {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: crimson;
+        position: relative;
+        animation-name: halloween1;
+        animation-duration: 0.8s;
+        animation-iteration-count: 10;
+        animation-fill-mode: backwards;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+        /*short hand for "animation" property
+         animation:animation-name animation-duration animation-timing-function 
+         animation-delay animation-iteration-count animation-fill-mode;*/
+      }
+      @keyframes halloween1 {
+        from {
+          width: 600px;
+        }
+        to {
+          width: 450px;
+        }
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(4, 90, 48);
+        position: relative;
+        font-size: 80px;
+        animation-name: halloween;
+        animation-duration: 0.8s;
+        animation-iteration-count: 10;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+      }
+      @keyframes halloween {
+        from {
+          width: 200px;
+        }
+        to {
+          width: 400px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <div class="box">🎃</div>
+      </div>
+    </div>
+  </body>
+</html>
