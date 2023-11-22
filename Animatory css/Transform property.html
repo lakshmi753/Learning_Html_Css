@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform property</title>
+    <style>
+      .container {
+        background-color: rgb(25, 151, 122);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        height: 60vh;
+      }
+      .box {
+        background-color: darkred;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        font-size: 150px;
+        border-radius: 12px;
+        /* transform: rotate(45deg);*/
+        transition: all 1s ease-in-out;
+      }
+      .box:hover {
+        /* transform: rotate(45deg);*/
+        /*transform: skew(30deg);*/
+        /* transform: scale(2);*/
+        /*transform: translateX(80px);*/
+        /*transform: translateY(80px);*/
+        transform: translate(80px, 80px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">🔶</div>
+    </div>
+  </body>
+</html>
