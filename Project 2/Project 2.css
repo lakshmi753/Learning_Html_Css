@@ -10,7 +10,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
-
+  flex: 1;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgb(89, 2, 89);
@@ -50,7 +50,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*flex: 1;*/
+  flex: 1;
 }
 
 .navbar-box ul {
@@ -91,7 +91,9 @@ header {
   justify-content: center;
   border: 2px solid rgb(107, 1, 107);
   border-radius: 21px;
-  width: 278px;
+  max-width: 278px;
+  min-width: 50px;
+  flex: 1;
   height: 42.6px;
   overflow: hidden;
 }
@@ -103,7 +105,8 @@ header {
   font-size: 1rem;
   border: none;
   height: 44px;
-  width: 250px;
+  /*width: 250px;*/
+  flex: 1;
 }
 
 .searchbar input::placeholder {
