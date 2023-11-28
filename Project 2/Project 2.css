@@ -363,7 +363,7 @@ footer div {
 
 /*utility-class*/
 .title {
-  display: inline-block;
+  /* display: inline-block;*/
   font-family: "Pacifico", cursive;
   font-size: 2.8rem;
   color: darkmagenta;
