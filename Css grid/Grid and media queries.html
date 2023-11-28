@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid and Media queries</title>
+
+    <style>
+      .container {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:
+          "navbar navbar navbar navbar"
+          "section section section aside"
+          "footer footer footer footer";
+      }
+      nav {
+        grid-area: navbar;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+      }
+      section {
+        grid-area: section;
+      }
+      aside {
+        grid-area: aside;
+      }
+      footer {
+        grid-area: footer;
+        text-align: center;
+      }
+      .item {
+        border: 4px solid darkmagenta;
+        color: rgb(80, 2, 80);
+        background-color: rgb(244, 127, 244);
+        padding: 20px;
+      }
+      @media (min-width: 0px) and (max-width: 600px) {
+        body {
+          background-color: red;
+        }
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "footer footer footer footer";
+        }
+        aside {
+          display: none;
+        }
+        span {
+          display: block;
+        }
+      }
+      @media (min-width: 601px) and (max-width: 1000px) {
+        body {
+          background-color: blueviolet;
+        }
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer";
+        }
+        span {
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+      }
+      @media (min-width: 1001px) and (max-width: 1500px) {
+        body {
+          background-color: chartreuse;
+        }
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section aside aside"
+            "footer footer footer footer";
+        }
+        span {
+          margin-left: 60px;
+          margin-right: 60px;
+        }
+      }
+      @media (min-width: 1501px) {
+        body {
+          background-color: rgb(254, 254, 93);
+        }
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section aside"
+            "footer footer footer footer";
+        }
+        span {
+          margin-left: 90px;
+          margin-right: 90px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="item">
+        <span>Home</span>
+        <span>About</span>
+        <span>Service</span>
+        <span>Contacts</span>
+      </nav>
+      <section class="item">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, mollitia
+        exercitationem id maiores perspiciatis laborum voluptatem sapiente
+        voluptatum? Quos harum animi non doloremque incidunt iure nostrum,
+        placeat, vero modi in consectetur asperiores, provident reprehenderit
+        iste et ad labore itaque aperiam.
+      </section>
+      <aside class="item">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
+        nobis a consequatur quod quo officia ut sequi facere minus dolorum
+        fugiat, illum sint saepe architecto, tenetur sed quia aliquid similique
+        magni soluta nihil. Voluptas eligendi quas, beatae rerum nisi maxime!
+      </aside>
+      <footer class="item">Copyright &copy; CodeWithHarry🤩</footer>
+    </div>
+  </body>
+</html>
