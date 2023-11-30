@@ -97,7 +97,7 @@ header {
   justify-content: center;
   border: 2px solid rgb(107, 1, 107);
   border-radius: 21px;
-  width: 278px;
+  /*width: 278px;*/
   height: 42.6px;
   overflow: hidden;
 }
@@ -109,7 +109,7 @@ header {
   font-size: 1rem;
   border: none;
   height: 44px;
-  /*width: 250px;*/
+  width: 250px;
   flex: 1;
 }
 
