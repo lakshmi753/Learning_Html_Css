@@ -1,5 +1,5 @@
 body {
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 header {
@@ -37,7 +37,7 @@ header {
 }
 
 .items a {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .searchbar-box {
@@ -46,17 +46,22 @@ header {
 }
 
 .searchbar {
-  height: 24px;
-  border-radius: 12px;
+  height: 20px;
+  border-radius: 10px;
 }
 
 .searchbar input {
   width: 70px;
+  font-size: 1rem;
+}
+
+.searchbar input::placeholder {
+  font-size: 1rem;
 }
 
 .searchbar div {
-  height: 35px;
-  width: 20px;
+  height: 32px;
+  width: 18px;
 }
 
 .searchbar-box img {
@@ -64,26 +69,29 @@ header {
 }
 
 .home::before {
-  height: 630px;
+  height: 580px;
 }
 
 .home-title img {
-  width: 41px;
-  height: 41px;
-  border-radius: 20.5px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
   padding-left: 7px;
 }
 
 .home p {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .home button {
   margin-top: 10px;
+  font-size: 1.2rem;
 }
 
 .services::before {
-  height: 1650px;
+  height: 1520px;
 }
 
 .food-services-box {
@@ -91,21 +99,25 @@ header {
   flex-wrap: wrap;
 }
 
+.food-services h3 {
+  font-size: 1.2rem;
+}
+
 .food-services {
-  width: 300px;
+  width: 260px;
 }
 
 .bulk-odering-pic {
-  height: 320px;
-  width: 280px;
+  height: 280px;
+  width: 240px;
 }
 
 .client::before {
-  height: 780px;
+  height: 730px;
 }
 
 .client h2 {
-  width: 205px;
+  width: 165px;
 }
 
 .client-box {
@@ -113,12 +125,12 @@ header {
 }
 
 .client-box img {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
 }
 
 .client p {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 footer {
@@ -131,15 +143,15 @@ footer div {
 }
 
 .copyright {
-  font-size: 0.5rem;
+  font-size: 0.3rem;
 }
 
 .bye {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .greeting {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /*utility-class*/
@@ -147,12 +159,12 @@ footer div {
 .title {
   /* display: inline-block;*/
   font-family: "Pacifico", cursive;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: darkmagenta;
 }
 
 .services-pic {
-  width: 240px;
-  height: 150px;
+  width: 210px;
+  height: 120px;
   padding: 10px;
 }

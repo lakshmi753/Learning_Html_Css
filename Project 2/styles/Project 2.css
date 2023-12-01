@@ -229,6 +229,10 @@ header {
   box-shadow: 5px 5px 8px darkmagenta;
 }
 
+.second-title {
+  display: none;
+}
+
 .food-services-box {
   display: flex;
   align-items: center;
@@ -343,12 +347,12 @@ footer div {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
 .copyright {
   font-size: 0.9rem;
   color: rgb(158, 3, 158);
-  padding: 10px;
   width: 182px;
   height: 49px;
 }
@@ -356,7 +360,6 @@ footer div {
 .bye {
   font-size: 2.2rem;
   color: rgb(105, 3, 105);
-  padding: 10px;
   width: 336px;
   height: 61.3px;
 }
@@ -364,7 +367,6 @@ footer div {
 .greeting {
   font-size: 1.6rem;
   color: rgb(158, 3, 158);
-  padding: 10px;
   width: 258px;
   height: 44.4px;
 }
