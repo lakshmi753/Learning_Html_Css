@@ -1,5 +1,5 @@
 body {
-  padding-top: 120px;
+  padding-top: 110px;
 }
 
 header {
@@ -29,7 +29,7 @@ header {
 }
 
 .navbar-box {
-  margin-right: 15px;
+  margin-right: 0;
 }
 
 .items {
@@ -37,10 +37,14 @@ header {
 }
 
 .items a {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .searchbar-box {
+  display: none;
+}
+
+/*.searchbar-box {
   margin-left: 15px;
   margin-right: 5px;
 }
@@ -66,32 +70,32 @@ header {
 
 .searchbar-box img {
   display: none;
-}
+}*/
 
 .home::before {
-  height: 610px;
+  height: 510px;
 }
 
 .home-title img {
-  width: 36px;
-  height: 36px;
-  border-radius: 18px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
   padding-left: 7px;
 }
 
 .home p {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .home button {
   margin-top: 10px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .services::before {
-  height: 1520px;
+  height: 1600px;
 }
 
 .services h2 {
@@ -110,6 +114,7 @@ header {
 .food-services-box {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 }
 
 .food-services h3 {
@@ -117,7 +122,7 @@ header {
 }
 
 .food-services {
-  width: 260px;
+  width: 240px;
 }
 
 .bulk-odering-pic {
@@ -126,11 +131,11 @@ header {
 }
 
 .client::before {
-  height: 630px;
+  height: 600px;
 }
 
 .client h2 {
-  width: 165px;
+  width: 145px;
 }
 
 .client-box {
@@ -138,8 +143,8 @@ header {
 }
 
 .client-box img {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
 }
 
 .client p {
@@ -147,7 +152,7 @@ header {
 }
 
 footer {
-  height: 60px;
+  height: 50px;
   padding: 0;
 }
 
@@ -156,15 +161,15 @@ footer div {
 }
 
 .copyright {
-  font-size: 0.2rem;
+  font-size: 0.3rem;
 }
 
 .bye {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .greeting {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 /*utility-class*/
@@ -172,7 +177,7 @@ footer div {
 .title {
   /* display: inline-block;*/
   font-family: "Pacifico", cursive;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: darkmagenta;
 }
 
